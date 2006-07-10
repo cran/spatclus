@@ -29,7 +29,6 @@ plotreg(nomlst, m)
   RES <- clus(chemist,grille,limx=c(-6,8),limy=c(-7,7))
 
   # plot of the regression
-  x11()
   plotreg(RES,RES$stat$kmax)
 }
 \author{Christophe Dematte{\"\i}  \email{demattei@iurc.montp.inserm.fr}
