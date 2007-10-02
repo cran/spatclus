@@ -6,7 +6,7 @@
   Computes the WD sup F-statistic threshold.
 }
 \usage{
-critvalwdm(q = 1, e = eps)
+critvalwdm(q = 1, e)
 }
 
 \arguments{

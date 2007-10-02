@@ -104,10 +104,10 @@ if (methk==2) bern<-data.frame(lambda=NaN,loglambda=NaN,cx=NaN,cy=NaN,rayon=NaN)
 
 if (export=="y")
 {
-write.table(geo,file=paste(repexport,"geo.geo",sep=""),sep="\t",col.names=F,row.names=F)
-write.table(cas,file=paste(repexport,"cas.cas",sep=""),sep="\t",col.names=F,row.names=F)
-write.table(popk,file=paste(repexport,"popk.pop",sep=""),sep="\t",col.names=F,row.names=F)
-write.table(ctl,file=paste(repexport,"ctl.ctl",sep=""),sep="\t",col.names=F,row.names=F)
+write.table(geo,file=paste(repexport,"geo.geo",sep=""),sep="\t",col.names=FALSE,row.names=FALSE)
+write.table(cas,file=paste(repexport,"cas.cas",sep=""),sep="\t",col.names=FALSE,row.names=FALSE)
+write.table(popk,file=paste(repexport,"popk.pop",sep=""),sep="\t",col.names=FALSE,row.names=FALSE)
+write.table(ctl,file=paste(repexport,"ctl.ctl",sep=""),sep="\t",col.names=FALSE,row.names=FALSE)
 }
 
 list(pois=pois,bern=bern)

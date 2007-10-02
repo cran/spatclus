@@ -6,7 +6,7 @@
   Computes the sup F-statistic threshold.
 }
 \usage{
-critval(q = 1, k = 2, e = eps)
+critval(q = 1, k = 2, e)
 }
 
 \arguments{

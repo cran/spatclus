@@ -1,6 +1,7 @@
 \name{clus}
 \alias{clus}
 \title{Cluster location and detection}
+\encoding{latin1}
 \description{
   Locates and detects multiple spatial clusters in 2D and 3D and determines the Kulldorff's circular zone in 2D (without detection).
 }

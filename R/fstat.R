@@ -1,9 +1,9 @@
-critval<-function(q=1,k=2,e=eps)
+critval<-function(q=1,k=2,e)
 {
 (8.238+1.756*q-0.043*q*q-0.659*k-15.436*e+0.025*q/e)*exp(0.389/k-0.013/(e*k))
 }
 
-critvalwdm<-function(q=1,e=eps)
+critvalwdm<-function(q=1,e)
 {
 (9.039+3.318*q-9.969*e)*exp(-0.03*q-0.327*e)
 }
